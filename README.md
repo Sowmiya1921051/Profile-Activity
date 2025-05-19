@@ -1,97 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## ✨ CRED Profile UI - Component Breakdown & Design Guide
 
-# Getting Started
+Welcome to the **CRED Profile UI** breakdown! This document offers a clean, modular, and professional layout guide based on the attached screenshot. Each section is thoughtfully structured into reusable components to help you build a modern, intuitive interface.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+### 🔹 1. Header Section
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+* 🔙 **Back Arrow** – for navigation
+* 🧾 **Title:** `Profile`
+* 🆘 **Support Button** – positioned top-right
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 👤 2. User Info Section
 
-```sh
-# Using npm
-npm start
+* 🖼️ **Profile Image** – circular avatar
+* 🧑 **User Name:** `andaz Kumar`
+* 📅 **Member Since:** `Dec, 2020`
+* ✏️ **Edit Icon** – for profile updates
 
-# OR using Yarn
-yarn start
-```
+### 🚘 3. CRED Garage Section
 
-## Step 2: Build and run your app
+* 🚗 **Car Icon**
+* 🧠 **Insight Text:** `get to know your vehicles, inside out`
+* 🔗 **CTA Button:** `CRED garage >`
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 🗂️ 4. Account Details Section (Each as a Card Component)
 
-### Android
+#### 📊 a. Credit Score
 
-```sh
-# Using npm
-npm run android
+* Label: `credit score`
+* ✅ Action: `REFRESH AVAILABLE` (green text)
+* Score Value: `757`
 
-# OR using Yarn
-yarn android
-```
+#### 💸 b. Lifetime Cashback
 
-### iOS
+* Label: `lifetime cashback`
+* Value: `₹3`
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+#### 🏦 c. Bank Balance
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+* Label: `bank balance`
+* CTA: `check >`
 
-```sh
-bundle install
-```
+### 🎁 5. Rewards & Benefits
 
-Then, and every time you update your native dependencies, run:
+#### 🪙 a. Cashback Balance
 
-```sh
-bundle exec pod install
-```
+* Label: `cashback balance`
+* Value: `₹0`
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+#### 💰 b. Coins
 
-```sh
-# Using npm
-npm run ios
+* Label: `coins`
+* Total: `26,46,583`
 
-# OR using Yarn
-yarn ios
-```
+#### 🎉 c. Refer & Earn Offer
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+* Text: `win upto Rs 1000`
+* Subtext: `refer and earn`
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+### 📑 6. Transactions Overview
 
-## Step 3: Modify your app
+* CTA Text: `all transactions >`
 
-Now that you have successfully run the app, let's make changes!
+---
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+### 📝 UI/UX Notes
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+* Theme: **Dark Mode** UI
+* Consistent spacing and layout
+* Modern white icons on dark backgrounds
+* Font weights and sizes reflect visual hierarchy
+* Must use reusable components: `Card`, `Button`, `IconTextRow`, `ProfileImage`, etc.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+---
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+🚀 **Build with performance, design, and scalability in mind. Each component plays a role in crafting a seamless user experience.**
