@@ -6,7 +6,7 @@ Welcome to the **CRED Profile UI** breakdown! This document offers a clean, modu
 
 ![CRED Profile UI Screenshot]
 <div style="display: flex; gap: 10px;">
-  <img src="![image](https://github.com/user-attachments/assets/166fc02b-9d49-481f-9805-53a191ec93d6)" alt="Login Screen" width="200" height="400"/>
+  <img src="https://github.com/user-attachments/assets/166fc02b-9d49-481f-9805-53a191ec93d6" alt="Login Screen" width="200" height="400"/>
 </div>
 > *Screenshot of the CRED Profile UI interface*
 
