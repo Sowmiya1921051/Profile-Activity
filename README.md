@@ -4,6 +4,13 @@ Welcome to the **CRED Profile UI** breakdown! This document offers a clean, modu
 
 ---
 
+![CRED Profile UI Screenshot](![image](https://github.com/user-attachments/assets/5bfad2a3-5907-4721-bfac-def5cee0e65e)
+)
+
+> *Screenshot of the CRED Profile UI interface*
+
+---
+
 ### 🔹 1. Header Section
 
 * 🔙 **Back Arrow** – for navigation
